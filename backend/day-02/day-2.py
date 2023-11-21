@@ -1,0 +1,10 @@
+print(f"````````````\n")
+num_1 = int(input('Enter the first number: '))
+num_2 = int(input('Enter the second number: '))
+num_3 = int(input('Enter the third number: '))
+array =(num_1,num_2,num_3)
+Add = sum(array)
+print(f"\n")
+print(f"Sum:{Add}")
+print(f"````````````\n")
+
