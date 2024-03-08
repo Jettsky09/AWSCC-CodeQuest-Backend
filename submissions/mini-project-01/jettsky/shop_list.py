@@ -8,7 +8,7 @@ while i != -1:
 \n2. View shopping list\
 \n3. Remove item from the shopping list\
 \n4. Quit")
-    name = (int(input('Enter the number of your choice: ')))
+    name = int(input('Enter the number of your choice: '))
     if name == 1:
             add_list = input("Enter the item you want to add: ").lower()
             shop_list.append(add_list)
