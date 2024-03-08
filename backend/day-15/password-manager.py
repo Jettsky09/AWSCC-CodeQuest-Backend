@@ -26,12 +26,12 @@ def check_input(_input):
         existing = False
         while not existing:
             website = input("Enter website: ")
-            existing = is_existing(website)
+            existing = is_existing(website)  
         delete(website)
     elif _input == "5":
         existing = False
         while not existing:
-            website = input("Enter website: ")
+            website = input("Enter website: ") 
             existing = is_existing(website)
         update(website)
     elif _input == "6":
@@ -65,9 +65,9 @@ def add():
         data.update(new_data)
 
     with open('data.json', 'w') as f:
-        json.dump(data, f, indent=4)
+        json.dump(data, f, indent=10)
 
-    os.system('cls')
+    os.system('cls')    
     print("Successfully added!")
     
 def view():

@@ -8,6 +8,6 @@ def avg(numlist):
     avg = sum / len(numlist)
     return avg 
 
-my_list = [5, 9, 2, 3, 1]
+my_list = [5, 5, 5, 5, 5]
 my_avg = avg(my_list)
 print(my_avg)
